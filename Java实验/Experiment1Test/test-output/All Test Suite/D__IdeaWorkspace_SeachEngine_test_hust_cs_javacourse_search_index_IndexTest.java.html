@@ -1,0 +1,500 @@
+<html>
+<head>
+<title>TestNG:  D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/IndexTest.java</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/IndexTest.java</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 14 10:58:23 CST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (355 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='hust.cs.javacourse.search.index.IndexTest.testAddDocument()'><b>testAddDocument</b><br>Test class: hust.cs.javacourse.search.index.IndexTest<br>Parameters: [Lhust.cs.javacourse.search.index.AbstractIndex;@db57326, DocId:1,docPath:D:\IdeaWorkspace\SeachEngine/text/2.txt
+activity
+frequency:1,current position:0
+destination
+frequency:1,current position:1
+emergency
+frequency:1,current position:2
+capital
+frequency:1,current position:7
+frozen
+frequency:1,current position:9
+benefits
+frequency:1,current position:10
+google
+frequency:1,current position:11
+frozen
+frequency:1,current position:14
+google
+frequency:1,current position:15
+</td>
+<td></td>
+<td>0</td>
+<td>hust.cs.javacourse.search.index.IndexTest@4fb64261</td></tr>
+<tr>
+<td title='hust.cs.javacourse.search.index.IndexTest.testGetDictionary()'><b>testGetDictionary</b><br>Test class: hust.cs.javacourse.search.index.IndexTest<br>Parameters: 0:D:\IdeaWorkspace\SeachEngine\text\1.txt
+1:D:\IdeaWorkspace\SeachEngine\text\2.txt
+2:D:\IdeaWorkspace\SeachEngine\text\3.txt
+
+activity
+DocId:0,frequency:3,position:0、1、6
+DocId:1,frequency:1,position:0
+benefits
+DocId:0,frequency:2,position:2、7
+DocId:1,frequency:1,position:10
+capital
+DocId:0,frequency:2,position:3、8
+DocId:1,frequency:1,position:7
+destination
+DocId:0,frequency:2,position:4、9
+DocId:1,frequency:1,position:1
+emergency
+DocId:0,frequency:1,position:10
+DocId:1,frequency:1,position:2
+fizzy
+DocId:0,frequency:1,position:5
+frozen
+DocId:1,frequency:2,position:9、14
+google
+DocId:1,frequency:2,position:11、15
+marketplace
+DocId:2,frequency:1,position:0
+medical
+DocId:2,frequency:1,position:1
+notification
+DocId:2,frequency:1,position:3
+peninsula
+DocId:2,frequency:1,position:5
+pollution
+DocId:2,frequency:1,position:7
+, [activity, benefits, capital, destination, emergency, fizzy, frozen, google, marketplace, medical, notification, peninsula, pollution]</td>
+<td></td>
+<td>0</td>
+<td>hust.cs.javacourse.search.index.IndexTest@4fb64261</td></tr>
+<tr>
+<td title='hust.cs.javacourse.search.index.IndexTest.testGetDocName()'><b>testGetDocName</b><br>Test class: hust.cs.javacourse.search.index.IndexTest<br>Parameters: 0:D:\IdeaWorkspace\SeachEngine\text\1.txt
+1:D:\IdeaWorkspace\SeachEngine\text\2.txt
+2:D:\IdeaWorkspace\SeachEngine\text\3.txt
+
+activity
+DocId:0,frequency:3,position:0、1、6
+DocId:1,frequency:1,position:0
+benefits
+DocId:0,frequency:2,position:2、7
+DocId:1,frequency:1,position:10
+capital
+DocId:0,frequency:2,position:3、8
+DocId:1,frequency:1,position:7
+destination
+DocId:0,frequency:2,position:4、9
+DocId:1,frequency:1,position:1
+emergency
+DocId:0,frequency:1,position:10
+DocId:1,frequency:1,position:2
+fizzy
+DocId:0,frequency:1,position:5
+frozen
+DocId:1,frequency:2,position:9、14
+google
+DocId:1,frequency:2,position:11、15
+marketplace
+DocId:2,frequency:1,position:0
+medical
+DocId:2,frequency:1,position:1
+notification
+DocId:2,frequency:1,position:3
+peninsula
+DocId:2,frequency:1,position:5
+pollution
+DocId:2,frequency:1,position:7
+, [Ljava.lang.String;@34a875b3</td>
+<td></td>
+<td>0</td>
+<td>hust.cs.javacourse.search.index.IndexTest@4fb64261</td></tr>
+<tr>
+<td title='hust.cs.javacourse.search.index.IndexTest.testLoad()'><b>testLoad</b><br>Test class: hust.cs.javacourse.search.index.IndexTest<br>Parameters: 0:D:\IdeaWorkspace\SeachEngine\text\1.txt
+1:D:\IdeaWorkspace\SeachEngine\text\2.txt
+2:D:\IdeaWorkspace\SeachEngine\text\3.txt
+
+activity
+DocId:0,frequency:3,position:0、1、6
+DocId:1,frequency:1,position:0
+benefits
+DocId:0,frequency:2,position:2、7
+DocId:1,frequency:1,position:10
+capital
+DocId:0,frequency:2,position:3、8
+DocId:1,frequency:1,position:7
+destination
+DocId:0,frequency:2,position:4、9
+DocId:1,frequency:1,position:1
+emergency
+DocId:0,frequency:1,position:10
+DocId:1,frequency:1,position:2
+fizzy
+DocId:0,frequency:1,position:5
+frozen
+DocId:1,frequency:2,position:9、14
+google
+DocId:1,frequency:2,position:11、15
+marketplace
+DocId:2,frequency:1,position:0
+medical
+DocId:2,frequency:1,position:1
+notification
+DocId:2,frequency:1,position:3
+peninsula
+DocId:2,frequency:1,position:5
+pollution
+DocId:2,frequency:1,position:7
+, /Users/mac/Desktop/JavaExperiment/Experiment1Tes4_4Linux/test/config/..//index/index_1_2_3_txt.dat</td>
+<td></td>
+<td>0</td>
+<td>hust.cs.javacourse.search.index.IndexTest@4fb64261</td></tr>
+<tr>
+<td title='hust.cs.javacourse.search.index.IndexTest.testOptimize()'><b>testOptimize</b><br>Test class: hust.cs.javacourse.search.index.IndexTest<br>Parameters: 0:D:\IdeaWorkspace\SeachEngine\text\1.txt
+1:D:\IdeaWorkspace\SeachEngine\text\2.txt
+2:D:\IdeaWorkspace\SeachEngine\text\3.txt
+
+activity
+DocId:0,frequency:3,position:0、1、6
+DocId:1,frequency:1,position:0
+benefits
+DocId:0,frequency:2,position:2、7
+DocId:1,frequency:1,position:10
+capital
+DocId:0,frequency:2,position:3、8
+DocId:1,frequency:1,position:7
+destination
+DocId:0,frequency:2,position:4、9
+DocId:1,frequency:1,position:1
+emergency
+DocId:0,frequency:1,position:10
+DocId:1,frequency:1,position:2
+fizzy
+DocId:0,frequency:1,position:5
+frozen
+DocId:1,frequency:2,position:9、14
+google
+DocId:1,frequency:2,position:11、15
+marketplace
+DocId:2,frequency:1,position:0
+medical
+DocId:2,frequency:1,position:1
+notification
+DocId:2,frequency:1,position:3
+peninsula
+DocId:2,frequency:1,position:5
+pollution
+DocId:2,frequency:1,position:7
+, 0:D:\IdeaWorkspace\SeachEngine\text\1.txt
+1:D:\IdeaWorkspace\SeachEngine\text\2.txt
+2:D:\IdeaWorkspace\SeachEngine\text\3.txt
+
+activity
+DocId:0,frequency:3,position:0、1、6
+DocId:1,frequency:1,position:0
+benefits
+DocId:0,frequency:2,position:2、7
+DocId:1,frequency:1,position:10
+capital
+DocId:0,frequency:2,position:3、8
+DocId:1,frequency:1,position:7
+destination
+DocId:0,frequency:2,position:4、9
+DocId:1,frequency:1,position:1
+emergency
+DocId:0,frequency:1,position:10
+DocId:1,frequency:1,position:2
+fizzy
+DocId:0,frequency:1,position:5
+frozen
+DocId:1,frequency:2,position:9、14
+google
+DocId:1,frequency:2,position:11、15
+marketplace
+DocId:2,frequency:1,position:0
+medical
+DocId:2,frequency:1,position:1
+notification
+DocId:2,frequency:1,position:3
+peninsula
+DocId:2,frequency:1,position:5
+pollution
+DocId:2,frequency:1,position:7
+</td>
+<td></td>
+<td>0</td>
+<td>hust.cs.javacourse.search.index.IndexTest@4fb64261</td></tr>
+<tr>
+<td title='hust.cs.javacourse.search.index.IndexTest.testReadObject()'><b>testReadObject</b><br>Test class: hust.cs.javacourse.search.index.IndexTest<br>Parameters: 0:D:\IdeaWorkspace\SeachEngine\text\1.txt
+1:D:\IdeaWorkspace\SeachEngine\text\2.txt
+2:D:\IdeaWorkspace\SeachEngine\text\3.txt
+
+activity
+DocId:0,frequency:3,position:0、1、6
+DocId:1,frequency:1,position:0
+benefits
+DocId:0,frequency:2,position:2、7
+DocId:1,frequency:1,position:10
+capital
+DocId:0,frequency:2,position:3、8
+DocId:1,frequency:1,position:7
+destination
+DocId:0,frequency:2,position:4、9
+DocId:1,frequency:1,position:1
+emergency
+DocId:0,frequency:1,position:10
+DocId:1,frequency:1,position:2
+fizzy
+DocId:0,frequency:1,position:5
+frozen
+DocId:1,frequency:2,position:9、14
+google
+DocId:1,frequency:2,position:11、15
+marketplace
+DocId:2,frequency:1,position:0
+medical
+DocId:2,frequency:1,position:1
+notification
+DocId:2,frequency:1,position:3
+peninsula
+DocId:2,frequency:1,position:5
+pollution
+DocId:2,frequency:1,position:7
+, /Users/mac/Desktop/JavaExperiment/Experiment1Tes4_4Linux/test/config/..//index/index_1_2_3_txt.dat</td>
+<td></td>
+<td>0</td>
+<td>hust.cs.javacourse.search.index.IndexTest@4fb64261</td></tr>
+<tr>
+<td title='hust.cs.javacourse.search.index.IndexTest.testSave()'><b>testSave</b><br>Test class: hust.cs.javacourse.search.index.IndexTest<br>Parameters: 0:D:\IdeaWorkspace\SeachEngine\text\1.txt
+1:D:\IdeaWorkspace\SeachEngine\text\2.txt
+2:D:\IdeaWorkspace\SeachEngine\text\3.txt
+
+activity
+DocId:0,frequency:3,position:0、1、6
+DocId:1,frequency:1,position:0
+benefits
+DocId:0,frequency:2,position:2、7
+DocId:1,frequency:1,position:10
+capital
+DocId:0,frequency:2,position:3、8
+DocId:1,frequency:1,position:7
+destination
+DocId:0,frequency:2,position:4、9
+DocId:1,frequency:1,position:1
+emergency
+DocId:0,frequency:1,position:10
+DocId:1,frequency:1,position:2
+fizzy
+DocId:0,frequency:1,position:5
+frozen
+DocId:1,frequency:2,position:9、14
+google
+DocId:1,frequency:2,position:11、15
+marketplace
+DocId:2,frequency:1,position:0
+medical
+DocId:2,frequency:1,position:1
+notification
+DocId:2,frequency:1,position:3
+peninsula
+DocId:2,frequency:1,position:5
+pollution
+DocId:2,frequency:1,position:7
+, /Users/mac/Desktop/JavaExperiment/Experiment1Tes4_4Linux/test/config/..//index/index_1_2_3_txt.dat</td>
+<td></td>
+<td>0</td>
+<td>hust.cs.javacourse.search.index.IndexTest@4fb64261</td></tr>
+<tr>
+<td title='hust.cs.javacourse.search.index.IndexTest.testSearch()'><b>testSearch</b><br>Test class: hust.cs.javacourse.search.index.IndexTest<br>Parameters: 0:D:\IdeaWorkspace\SeachEngine\text\1.txt
+1:D:\IdeaWorkspace\SeachEngine\text\2.txt
+2:D:\IdeaWorkspace\SeachEngine\text\3.txt
+
+activity
+DocId:0,frequency:3,position:0、1、6
+DocId:1,frequency:1,position:0
+benefits
+DocId:0,frequency:2,position:2、7
+DocId:1,frequency:1,position:10
+capital
+DocId:0,frequency:2,position:3、8
+DocId:1,frequency:1,position:7
+destination
+DocId:0,frequency:2,position:4、9
+DocId:1,frequency:1,position:1
+emergency
+DocId:0,frequency:1,position:10
+DocId:1,frequency:1,position:2
+fizzy
+DocId:0,frequency:1,position:5
+frozen
+DocId:1,frequency:2,position:9、14
+google
+DocId:1,frequency:2,position:11、15
+marketplace
+DocId:2,frequency:1,position:0
+medical
+DocId:2,frequency:1,position:1
+notification
+DocId:2,frequency:1,position:3
+peninsula
+DocId:2,frequency:1,position:5
+pollution
+DocId:2,frequency:1,position:7
+, DocId:0,frequency:3,position:0、1、6
+DocId:1,frequency:1,position:0
+</td>
+<td></td>
+<td>0</td>
+<td>hust.cs.javacourse.search.index.IndexTest@4fb64261</td></tr>
+<tr>
+<td title='hust.cs.javacourse.search.index.IndexTest.testTestToString()'><b>testTestToString</b><br>Test class: hust.cs.javacourse.search.index.IndexTest<br>Parameters: 0:D:\IdeaWorkspace\SeachEngine\text\1.txt
+1:D:\IdeaWorkspace\SeachEngine\text\2.txt
+2:D:\IdeaWorkspace\SeachEngine\text\3.txt
+
+activity
+DocId:0,frequency:3,position:0、1、6
+DocId:1,frequency:1,position:0
+benefits
+DocId:0,frequency:2,position:2、7
+DocId:1,frequency:1,position:10
+capital
+DocId:0,frequency:2,position:3、8
+DocId:1,frequency:1,position:7
+destination
+DocId:0,frequency:2,position:4、9
+DocId:1,frequency:1,position:1
+emergency
+DocId:0,frequency:1,position:10
+DocId:1,frequency:1,position:2
+fizzy
+DocId:0,frequency:1,position:5
+frozen
+DocId:1,frequency:2,position:9、14
+google
+DocId:1,frequency:2,position:11、15
+marketplace
+DocId:2,frequency:1,position:0
+medical
+DocId:2,frequency:1,position:1
+notification
+DocId:2,frequency:1,position:3
+peninsula
+DocId:2,frequency:1,position:5
+pollution
+DocId:2,frequency:1,position:7
+, [Ljava.lang.String;@4748a0f9</td>
+<td></td>
+<td>0</td>
+<td>hust.cs.javacourse.search.index.IndexTest@4fb64261</td></tr>
+<tr>
+<td title='hust.cs.javacourse.search.index.IndexTest.testWriteObject()'><b>testWriteObject</b><br>Test class: hust.cs.javacourse.search.index.IndexTest<br>Parameters: 0:D:\IdeaWorkspace\SeachEngine\text\1.txt
+1:D:\IdeaWorkspace\SeachEngine\text\2.txt
+2:D:\IdeaWorkspace\SeachEngine\text\3.txt
+
+activity
+DocId:0,frequency:3,position:0、1、6
+DocId:1,frequency:1,position:0
+benefits
+DocId:0,frequency:2,position:2、7
+DocId:1,frequency:1,position:10
+capital
+DocId:0,frequency:2,position:3、8
+DocId:1,frequency:1,position:7
+destination
+DocId:0,frequency:2,position:4、9
+DocId:1,frequency:1,position:1
+emergency
+DocId:0,frequency:1,position:10
+DocId:1,frequency:1,position:2
+fizzy
+DocId:0,frequency:1,position:5
+frozen
+DocId:1,frequency:2,position:9、14
+google
+DocId:1,frequency:2,position:11、15
+marketplace
+DocId:2,frequency:1,position:0
+medical
+DocId:2,frequency:1,position:1
+notification
+DocId:2,frequency:1,position:3
+peninsula
+DocId:2,frequency:1,position:5
+pollution
+DocId:2,frequency:1,position:7
+, /Users/mac/Desktop/JavaExperiment/Experiment1Tes4_4Linux/test/config/..//index/index_1_2_3_txt.dat</td>
+<td></td>
+<td>0</td>
+<td>hust.cs.javacourse.search.index.IndexTest@4fb64261</td></tr>
+</table><p>
+</body>
+</html>
