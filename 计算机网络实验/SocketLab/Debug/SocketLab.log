@@ -1,0 +1,7 @@
+﻿  server.cpp
+\\vmware-host\Shared Folders\Desktop\计网实验\SocketLab\server.cpp(39,30): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+\\vmware-host\Shared Folders\Desktop\计网实验\SocketLab\server.cpp(19,6): warning C4101: “addrLen”: 未引用的局部变量
+  sessionClient.cpp
+\\vmware-host\Shared Folders\Desktop\计网实验\SocketLab\sessionClient.cpp(56,11): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+  正在生成代码...
+  SocketLab.vcxproj -> \\vmware-host\Shared Folders\Desktop\计网实验\SocketLab\Debug\SocketLab.exe

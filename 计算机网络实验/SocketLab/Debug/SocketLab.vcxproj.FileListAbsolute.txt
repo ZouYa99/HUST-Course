@@ -1,0 +1,2 @@
+C:\Users\ZouYa\source\repos\SocketLab\Debug\SocketLab.exe
+\\vmware-host\Shared Folders\Desktop\计网实验\SocketLab\Debug\SocketLab.exe
